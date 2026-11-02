@@ -1,0 +1,40 @@
+# [Project name]
+
+<!--
+CLAUDE.md is read at the start of every session. Keep it short: facts Claude
+can't work out from the code itself. Move long procedures into skills.
+Rename this file to CLAUDE.md and put it in your project root.
+-->
+
+## What this is
+
+[One or two sentences: what the project does and who uses it.]
+
+## Stack
+
+- Language: [e.g. Python 3.12]
+- Framework: [e.g. FastAPI]
+- Package manager: [e.g. uv, npm, pnpm]
+- Database: [e.g. Postgres via SQLAlchemy]
+
+## Commands
+
+- Install: `[command]`
+- Run: `[command]`
+- Test: `[command]`
+- Lint/format: `[command]`
+
+## Conventions
+
+- [e.g. Use type hints on every function.]
+- [e.g. Tests live next to the code as `test_*.py`.]
+- [e.g. Never commit directly to `main`.]
+
+## Don't touch
+
+- [e.g. `migrations/` is generated. Don't edit by hand.]
+- [e.g. `.env` holds secrets. Never read or print it.]
+
+## Definition of done
+
+- [e.g. Tests pass, lint is clean, and new code has at least one test.]

@@ -1,0 +1,31 @@
+# Expense Tracker
+
+A small command-line app for logging personal expenses and printing monthly summaries. Used in the Sinai Observer Claude Code course as a practice project.
+
+## Stack
+
+- Python 3.10+
+- Standard library only (no third-party packages)
+- Data is stored in `expenses.json` in the working folder
+
+## Commands
+
+- Run: `python -m expense_tracker add 12.50 food "Lunch"`
+- Summary: `python -m expense_tracker summary 2026-11`
+- Test: `python -m pytest` (install pytest first: `pip install pytest`)
+
+## Conventions
+
+- Store money as integer cents, never floats.
+- Dates are ISO format strings: `YYYY-MM-DD`.
+- Keep functions small and pure where possible; file I/O lives in `storage.py` only.
+- Every bug fix comes with a test that fails before the fix.
+
+## Don't touch
+
+- `expenses.json` is user data. Don't delete or overwrite it while testing; use a temp file.
+
+## Definition of done
+
+- `python -m pytest` passes.
+- New behaviour has a test.
